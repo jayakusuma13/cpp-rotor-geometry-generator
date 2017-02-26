@@ -1,14 +1,10 @@
-// NIM/Nama : 16416303
-// Nama file: PB02-16416303-170223-02.cpp
-// Tanggal  : 23 Febuari 2017
-// Deskripsi: program baling-baling bambu doraemon
 #include <iostream>
 using namespace std;
 
 int main(){
     int i,j,k,x,y,z,b,baling;
 
-    cout << "Masukan besar baling-baling : " << "\n";
+    cout << "Insert the desired radius : " << "\n";
     cin >> baling;
 
     for(i=0;i<baling;i++){
